@@ -1,6 +1,56 @@
 
-$red: #ff0000;
-$green: #00ff00;
+
+
 h1 {
     color:$green;
+}
+
+#root {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background:#00a8ff
+}
+
+.container {
+    width: calc(90vw - 40px);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    background: white;
+    border-radius: 20px;
+    text-align:center;
+
+}
+
+@media all and (min-width:768px){
+    .container {
+        width: calc(40vw - 40px);
+    }
+}
+
+#weatherContainer {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.weatherBlock p{
+    font-family: arial;
+    font-weight: bold;
+    font-size: $m-size;
+}
+
+#reload {
+    background: #4eb235;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+#reload:hover {
+    background:#389521;
 }

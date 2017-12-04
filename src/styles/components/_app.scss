@@ -1,6 +1,4 @@
 
-
-
 h1 {
     color:$green;
 }
@@ -10,7 +8,7 @@ h1 {
     justify-content: center;
     align-items:center;
     height:100vh;
-    background:#00a8ff
+    background:$blue;
 }
 
 .container {
@@ -43,7 +41,7 @@ h1 {
 }
 
 #reload {
-    background: #4eb235;
+    background: $lightgreen;
     border: 0;
     color: white;
     padding: 10px;
@@ -52,5 +50,5 @@ h1 {
 }
 
 #reload:hover {
-    background:#389521;
+    background:$darkgreen;
 }

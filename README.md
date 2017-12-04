@@ -2,6 +2,9 @@
 
 Basic SPA to display temperature for user based on their location
 
+## Run using:
+yarn install
+yarn dev-server
 
 ## Built With
 
